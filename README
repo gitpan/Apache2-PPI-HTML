@@ -46,12 +46,12 @@ SUPPORT
     For other issues, contact the author.
 
 AUTHOR
+    Adam Kennedy <adamk@cpan.org>
+
     Written by Pete Sergeant (in about 3 minutes) :)
 
-    Documented and wrapped for release by Adam Kennedy
-
 COPYRIGHT
-    Copyright 2005 Pete Sergeant, Adam Kennedy. All rights reserved.
+    Copyright 2005 - 2008 Pete Sergeant, Adam Kennedy.
 
     This program is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.

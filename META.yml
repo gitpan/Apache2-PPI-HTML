@@ -1,19 +1,28 @@
-name: Apache2-PPI-HTML
-version: 0.01
-abstract: mod_perl2 interface to PPI::HTML syntax highlighter
-author: Adam Kennedy <cpan@ali.as>
-license: perl
-distribution_type: module
+---
+abstract: 'Apache 2 interface to PPI::HTML'
+author:
+  - 'Adam Kennedy <adamk@cpan.org>'
 build_requires:
   Test::More: 0.47
-  File::Spec: 0.80
-requires:
-  perl: 5.005
-  CGI: 3.10
-  mod_perl: 2.0
-  PPI: 0.994
-  PPI::HTML: 0.05
+distribution_type: module
+generated_by: 'Module::Install version 0.77'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: Apache2::PPI::HTML
+name: Apache2-PPI-HTML
 no_index:
   directory:
     - inc
-generated_by: Module::Install version 0.36
+    - t
+requires:
+  Apache2::RequestIO: 0
+  Apache2::RequestRec: 0
+  CGI: 3.10
+  PPI: 1.000
+  PPI::HTML: 0.05
+  perl: 5.6.0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.02
